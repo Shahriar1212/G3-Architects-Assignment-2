@@ -509,7 +509,7 @@ Media Query -------------------------*/
   }
 }
 
-@media screen and (min-width: 577px) and (max-width: 900px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
   body {
     padding: 5px;
   }
@@ -578,7 +578,7 @@ Media Query -------------------------*/
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 993px) {
   main {
     max-width: 1440px;
     margin: 0 auto;
