@@ -425,12 +425,18 @@ Media Query -------------------------*/
   body {
     padding: 5px;
   }
-  .nav-bar {
-    display: none;
-  }
   .banner-info {
     width: 100vw;
   }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-right: 5px;
+  }
+
+
   .banner-description,
   .banner-title,
   .feature-title,
@@ -507,6 +513,8 @@ Media Query -------------------------*/
   body {
     padding: 5px;
   }
+
+  
   .banner-description,
   .banner-title,
   .feature-title,
